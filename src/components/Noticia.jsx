@@ -5,11 +5,11 @@ const Noticia = ({ item }) => {
     return (
         <Col>
             <Card className='h-100 mb-3'>
-                {/* <Card.Img variant="top" src=`${item.urlToImage}` /> */}
+                <Card.Img variant="top" src={item.urlToImage} />
                 <Card.Body>
-                    <Card.Title>${item.title}</Card.Title>
+                    <Card.Title>{item.title}</Card.Title>
                     <Card.Text>
-                        ${item.description}
+                        {item.description}
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer className='text-end'>
