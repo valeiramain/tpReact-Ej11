@@ -8,8 +8,10 @@ function App() {
 
   return (
     <>
-      <h1>Noticias</h1>
+    <main className='container my-5'>
+      <h1 className='text-center'>Noticias</h1>
       <Formulario></Formulario>
+      </main>
     </>
   )
 }
